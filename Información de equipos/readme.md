@@ -4,7 +4,7 @@
 Con la herramienta HostInfo, que he creado, podras obtener información relevante de los equipo principalmente de nuestra red local, pero incluso podemos
 obtener información de fuera de nuestra red. 
 
-Ejemplo de uso: 
+### Ejemplo de uso: 
 
 ```powershell 
 .\HostInfo.ps1 -ip 142.250.200.131 -p 80, 443, 22
