@@ -5,5 +5,5 @@ Con la herramienta HostInfo, que he creado, podras obtener información relevant
 obtener información de fuera de nuestra red. 
 
 
-![Ejemplo de uso:](https://ibb.co/VHzb4RH)
+![Ejemplo de uso:](https://github.com/conde26/PowerShell-Scripts/blob/main/Informaci%C3%B3n%20de%20equipos/Images/Escaneo.PNG)
 
