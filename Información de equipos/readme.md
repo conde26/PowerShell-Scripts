@@ -7,12 +7,12 @@ obtener información de fuera de nuestra red.
 Ejemplo de uso: 
 
 ```powershell 
-  echo 
+.\HostInfo.ps1 -ip 142.250.200.131 -p 80, 443, 22
 ```
 
 ### Escaneo de host: 
 ![Info Host](https://github.com/conde26/PowerShell-Scripts/blob/main/Informaci%C3%B3n%20de%20equipos/Images/Escaneo.PNG)
 
-### Ayuda: 
+### Pedir ayuda: 
 ![Ayuda](https://github.com/conde26/PowerShell-Scripts/blob/main/Informaci%C3%B3n%20de%20equipos/Images/ayuda.PNG)
 
