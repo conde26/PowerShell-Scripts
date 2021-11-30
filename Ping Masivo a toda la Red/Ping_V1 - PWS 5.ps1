@@ -1,4 +1,4 @@
-﻿#Script para comprobar equipos disponibles
+#Script para comprobar equipos disponibles
 #Autor: Jose Conde
 
 ForEach ($ip in 1..254) 
