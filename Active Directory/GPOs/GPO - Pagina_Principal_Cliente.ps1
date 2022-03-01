@@ -15,7 +15,3 @@ New-GPLink -Name "Pagina_Inicio" -Target "DC=Dominio,DC=com"
 
 #Forzamos actualización 
 gpupdate /force 
-
-
-
-
