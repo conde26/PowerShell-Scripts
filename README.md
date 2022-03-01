@@ -13,7 +13,7 @@ Recordamos que para poder ejecutar los scripts de PowerShell, debemos modificar 
 ```PowerShell
 Set-ExectuionPolicy -ExecutionPolicy Unrestricted
 ``` 
-Dentro de las politicas tenemos 4, que son: 
+Dentro de las politicas tenemos 7, que son: 
 1. **AllSigned**
 2. **Bypass**
 3. **Default**
