@@ -1,4 +1,4 @@
-﻿#Add users in bulk 
+#Add users in bulk 
 #Author: Jose Conde 
  
 #Get content from file
@@ -7,13 +7,11 @@ $pass = Read-Host "Indica la contraseña base"
 
 #Add user in bulk
 foreach ($i in $file ){
+    $user = $i.split(',')[0]
+    $uid = $i.split(',')[1]
+    $guid = $i.split(',')[2]
 
-$user = $i.split(',')[0]
-$uid = $i.split(',')[1]
-$guid = $i.split(',')[2]
-
-
-
+#New-User
 New-ADUser $user -AccountPassword $(ConvertTo-SecureString $pass -AsPlainText -Force) `
                  -HomeDirectory \\$(hostname)\Carpetas_Personales\$user `
                  -HomeDrive Z: `
@@ -22,8 +20,9 @@ New-ADUser $user -AccountPassword $(ConvertTo-SecureString $pass -AsPlainText -F
                  -Enabled $true `
                  -ScriptPath inicio.bat `
 
+#Add UID and GUID
 Set-ADUser $user -Add @{uidnumber=$uid; gidnumber=$guid}
 
-
+#Verification message
 Write-Host "$user - Ok!" -ForegroundColor Green
 }
