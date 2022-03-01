@@ -1,4 +1,4 @@
-# PowerShell-Scripts
+# PowerShell
 ## Autor: Jose Conde 
 
 En este repositorio encontrar scripts relacionados con PowerShell, que englobarán tareas de un Sysadmin, como por ejemplo:
