@@ -21,4 +21,5 @@ Dentro de las politicas tenemos 7, que son:
 5. **Restricted**
 6. **Undefined**
 7. **Unrestricted** -> Recomendada para entornos de prácticas
+
 Puedes obtener más información en la página de [Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2)
