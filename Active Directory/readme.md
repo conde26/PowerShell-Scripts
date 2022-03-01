@@ -7,4 +7,4 @@
 - **Active Directory**
   - [Gestión de usuarios](https://github.com/conde26/PowerShell-Scripts/tree/main/Active%20Directory/Usuarios%20en%20Bulk)
   - [Configurar GPOs](https://github.com/conde26/PowerShell-Scripts/tree/main/Active%20Directory/GPOs)
-  - [Instalación AD DC] ()
+  - [Instalación AD DC]()
