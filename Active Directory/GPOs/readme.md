@@ -1,5 +1,5 @@
 # Automatizar GPOs
-## Author: Jose Conde 
+## Autor: Jose Conde 
 
 En este apartado, podrás encontrar algunas de las GPOs más comunes de forma automatizada con PowerShell. Antes de automatizarlas, necesitamos saber la clave del registro de dicha GPO, por ello cree un script la cual nos dice la clave que tiene asocidad la GPO. Los pasos a seguir serían los siguientes:
 
