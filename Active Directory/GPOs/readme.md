@@ -5,7 +5,7 @@ En este apartado, podrás encontrar algunas de las GPOs más comunes de forma au
 
 ### Pasos a seguir
 
-1. Creamos la GPO manualmente
+1. Creamos la GPO manualmente (Solo debe existir esta)
 2. Ejecutamos el [script](https://github.com/conde26/PowerShell-Scripts/blob/main/Active%20Directory/GPOs/Clave%20registro/Clave_Registro_GPO.ps1) para encontrar la clave del registro de la GPO que queremos automatizar
 3. Creamos el script indicando los valores que nos devuelve el anterior script
 
