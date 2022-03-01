@@ -11,5 +11,14 @@ En este repositorio encontrar scripts relacionados con PowerShell, que englobar�
 ### Nota 
 Recordamos que para poder ejecutar los scripts de PowerShell, debemos modificar la politica, para ello ejecutamos la siguiente instrudcción 
 ```PowerShell
-Set-ExectuionPolicy Unrestricted
+Set-ExectuionPolicy -ExecutionPolicy Unrestricted
 ``` 
+Dentro de las politicas tenemos 4, que son: 
+1. **AllSigned**
+2. **Bypass**
+3. **Default**
+4. **RemoteSigned**
+5. **Restricted**
+6. **Undefined**
+7. **Unrestricted** -> Recomendada para entornos de prácticas
+Puedes obtener más información en la página de [Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2)
