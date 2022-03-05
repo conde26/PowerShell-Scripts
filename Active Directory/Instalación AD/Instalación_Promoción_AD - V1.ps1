@@ -1,4 +1,4 @@
-﻿#Scripts Instalación AD 
+#Scripts Instalación AD 
 #Author: Jose Conde 
 
 #Instalamos rol Active Directory
