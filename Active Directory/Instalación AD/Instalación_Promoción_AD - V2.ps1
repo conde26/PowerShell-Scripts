@@ -5,7 +5,7 @@
 $Propiedades = @{
     domain = "dominio.com"
     netbios = "dominio"
-	password = "strong&P4$$W0RD"
+    password = "strong&P4$$W0RD"
 }
 
 #Instalamos rol Active Directory
