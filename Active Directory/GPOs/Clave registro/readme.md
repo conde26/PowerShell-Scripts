@@ -9,7 +9,7 @@ Contamos con dos versiones para este script.
 - Version 1 (Esta pide por pantalla las variables necesarias)
 - Version 2 (Este no pide por pantalla si no que lo pasamos como parametros)
 
-### Uso Versión 2 
+#### Ejemplo de uso de versión 2 
 ```powershell 
 Clave_Registro_GPO_2.ps1 -domainName hacking.local -gpo SMBRelay
 ```
