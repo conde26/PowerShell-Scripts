@@ -1,9 +1,11 @@
 #Change Hostname 
 #Author: Conde
 
-#New Name
-$ComputerName = "PC2"
-   
+#New Hostname
+param(
+    [Parameter(Position = 0, Mandatory=$true)]$ComputerName
+)
+
 #Remove all values 
 Remove-ItemProperty -path "HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" -name "Hostname" 
 Remove-ItemProperty -path "HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" -name "NV Hostname" 
