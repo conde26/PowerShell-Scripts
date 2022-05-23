@@ -1,4 +1,4 @@
-﻿#Unir cliente Dominio
+#Unir cliente Dominio
 #Autor: Conde
 
 #Ejecutar script como administrador
