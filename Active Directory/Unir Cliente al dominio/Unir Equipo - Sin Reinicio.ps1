@@ -21,6 +21,3 @@ Add-Computer -DomainName $dominio -Credential $cred
 klist –li 0x3e7 purge | out-null
 gpupdate /force | out-null
 Write-Host "`n[!] El equipo se unio correctamente al dominio`n`n" -ForegroundColor Yellow
-
-
-
