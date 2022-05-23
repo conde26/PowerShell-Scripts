@@ -7,7 +7,7 @@ En este reposotorio, encontrarás diferentes scripts para la administración de 
 00_variables.ps1
 ```
 
-### Preparación de host (hostname, eco, etc)
+### Preparación del servidos (hostname, solicitudes de ping, etc)
 ```powershell 
 01_Preparación_Inicial.ps1
 ```
