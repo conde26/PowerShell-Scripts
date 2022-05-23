@@ -4,7 +4,12 @@
 El siguiente script, nos permite conseguir las claves de registro de las directivas aplicadas para 
 una GPO. Todo esto para realizar una automatización de ellas para un futuro. 
 
-### Observación
-A mayores este script permite identificar si son **GPOs a nivel de máquina o de usuario**. Te pedirá dos cosas el script: 
-- **Nombre completo del dominio** (E.j hacking.local)
-- **Nombre de la GPO**
+### Observaciones
+Contamos con dos versiones para este script. 
+- Version 1 (Esta pide por pantalla las variables necesarias)
+- Version 2 (Este no pide por pantalla si no que lo pasamos como parametros)
+
+### Uso Versión 2 
+```powershell 
+Clave_Registro_GPO_2.ps1 -domainName hacking.local -gpo SMBRelay
+```
