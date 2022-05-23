@@ -15,4 +15,3 @@ New-GPLink -Name "SMBRelay" -Target "DC=$($dom.Split(".")[0]),DC=$($dom.Split(".
 
 #Forzamos actualización
 gpupdate /force 
-
