@@ -1,5 +1,5 @@
 # Gestión de DHCP con Powershell
-## Autor: Jose Conde 
+## Autor: Conde 
 
 En este reposotorio, encontrarás diferentes scripts para la administración de DHCP. 
 ### Variables para toda la configuraición
@@ -7,7 +7,7 @@ En este reposotorio, encontrarás diferentes scripts para la administración de 
 00_variables.ps1
 ```
 
-### Preparación del servidos (hostname, solicitudes de ping, etc)
+### Preparación del servidor (hostname, solicitudes de ping, etc)
 ```powershell 
 01_Preparación_Inicial.ps1
 ```
