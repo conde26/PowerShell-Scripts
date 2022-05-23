@@ -1,8 +1,8 @@
 #Script Para Ver Claves del Registro de GPOs
 #Author: Jose Conde
 
-## Buscamos el GUID de la GPO
-$gpoGuid = (Get-GPO -Name 'sesi�n').Id.ToString()
+## Buscamos el GUID de la GPO (Sesión es una GPO que cree yo, en tu caso debes indicar la tuya)
+$gpoGuid = (Get-GPO -Name 'sesión').Id.ToString()
 
 ## Buscamos el fichero registry.pol 
 $domainController = 'HOSTNAME_SERVER'
