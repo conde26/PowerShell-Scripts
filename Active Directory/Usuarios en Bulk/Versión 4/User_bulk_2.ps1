@@ -1,10 +1,10 @@
 #Add users in bulk 
 #Author: Conde 
 
+#Parameter -file
 param(
     $file
 )
-
 
 #Get content from file
 Import-Csv -Delimiter ","  $file |  % {
