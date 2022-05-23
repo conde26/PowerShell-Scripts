@@ -1,12 +1,5 @@
 # Encontrar Clave Registro GPO
 ## Author: Conde 
 
-En el siguiente script debemos **modificar dos variables** que son:
-- **$domainController**: Donde indicamos el nombre de nuestro Windows Server  
-- **$domainName**: Donde indicamos el nombre completo de nuestro dominio
-
-Tambien debemos modificar el nombre de la GPO: 
-```powershell 
-Get-GPO -Name "GPO_NAME"
-```
-
+El siguiente script, nos permite conseguir las claves de registro de las directivas aplicadas para 
+una GPO. Todo esto para realizar una automatización de ellas para un futuro. 
