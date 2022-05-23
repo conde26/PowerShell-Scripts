@@ -6,8 +6,8 @@ una GPO. Todo esto para realizar una automatización de ellas con powershell, vb
 
 ### Observaciones
 Contamos con dos versiones para este script. 
-- Version 1 (Esta pide por pantalla las variables necesarias)
-- Version 2 (Este no pide por pantalla si no que lo pasamos como parámetros, a mayores comprueba si dispones ya del modulo necesario para que funcione el script)
+- **Version 1** (Esta pide por pantalla las variables necesarias)
+- **Version 2** (Este no pide por pantalla si no que lo pasamos como parámetros, a mayores comprueba si dispones ya del modulo necesario para que funcione el script)
 
 #### Ejemplo de uso de versión 2 
 ```powershell 
