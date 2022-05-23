@@ -1,0 +1,3 @@
+name,password,uid,guid,home
+user1,abc123.,15023,15000,/home/user1
+user2,abc123.,16492,15000,/home/user2
