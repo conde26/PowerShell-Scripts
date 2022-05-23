@@ -8,3 +8,4 @@
   - [Instalación Active Directory](https://github.com/conde26/PowerShell-Scripts/tree/main/Active%20Directory/Instalaci%C3%B3n%20AD)
   - [Gestión de usuarios](https://github.com/conde26/PowerShell-Scripts/tree/main/Active%20Directory/Usuarios%20en%20Bulk)
   - [Configurar GPOs](https://github.com/conde26/PowerShell-Scripts/tree/main/Active%20Directory/GPOs)
+  - [Unir Clientes Windows al dominio](https://github.com/conde26/PowerShell-Scripts/tree/main/Active%20Directory/Unir%20Cliente%20al%20dominio)
