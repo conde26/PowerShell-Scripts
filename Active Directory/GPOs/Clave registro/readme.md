@@ -7,7 +7,7 @@ una GPO. Todo esto para realizar una automatización de ellas para un futuro.
 ### Observaciones
 Contamos con dos versiones para este script. 
 - Version 1 (Esta pide por pantalla las variables necesarias)
-- Version 2 (Este no pide por pantalla si no que lo pasamos como parametros)
+- Version 2 (Este no pide por pantalla si no que lo pasamos como parámetros, a mayores comprueba si dispones ya del modulo)
 
 #### Ejemplo de uso de versión 2 
 ```powershell 
