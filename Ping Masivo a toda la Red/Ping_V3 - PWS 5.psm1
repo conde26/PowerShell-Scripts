@@ -47,7 +47,6 @@ $param_1 = @{
 $param_2 = @{
     Count = "1"
     Quiet = $null
-
 }
 
     $up_computers=@()
