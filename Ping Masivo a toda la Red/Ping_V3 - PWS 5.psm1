@@ -28,9 +28,6 @@ function Get-ActiveComputers {
 	https://h4cktrick.github.io/
 	#>
 
-
-
-
     Param(
         [Parameter(Position=0,mandatory=$true)]
         [string]$Subnet,
@@ -42,12 +39,12 @@ function Get-ActiveComputers {
         [Switch]$DisplayGUIResult
     )
 
-$parametros_echo = @{
+$param_1 = @{
         f = "Yellow"
         b = "Black"
 }
 
-$parametros_ping = @{
+$param_2 = @{
     Count = "1"
     Quiet = $null
 
@@ -55,17 +52,17 @@ $parametros_ping = @{
 
     $up_computers=@()
     $StartIP..$EndIp | % {
-        $status = Test-Connection "$Subnet.$_" @parametros_ping 
+        $status = Test-Connection "$Subnet.$_" @param_2
 
         if($status){
-            write-host @parametros_echo "[*] $Subnet.$_ - Activo"
+            write-host @param_1 "[*] $Subnet.$_ - Activo"
             $up_computers += "$Subnet.$_"
         }
 
     }
     
     if($DisplayGUIResult){
-        $up_computers | Out-GridView -Title "Lista De Equipos Activos"
+        $up_computers | Out-GridView -Title "List of Active Computers"
     }    
     
 }
