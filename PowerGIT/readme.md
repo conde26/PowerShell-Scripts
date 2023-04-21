@@ -1,5 +1,9 @@
-# Github API Module 
+# PowerGIT
 
+## Description 
+<br>
+
+This is a module, which uses the GitHub API and the git command, to automate expensive actions, in order to be able to manage all our actions faster. 
 
 ## Prerequisites
 <br>
@@ -8,10 +12,7 @@ First of all, we will need to install GIT on our computer since the module combi
 
 * [Donwload GIT](https://git-scm.com/downloads) 
 
-<br>
-
 ## Installation 
-
 <br>
 
 We start by downloading the repository. 
@@ -32,10 +33,7 @@ Finally we import the module, and we can use the functions contained in the modu
 Import-module PowerGIT.psm1
 ```
 
-<br>
-
 ## Use
-
 <br>
 
 Donwload all repos from user. 
